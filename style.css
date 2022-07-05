@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 .hero-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./images/hero.jpg);
@@ -42,4 +43,101 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.donate {
+  margin: 100px 0;
+}
+.donate-today {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.donate-today h1 {
+  font-size: 45px;
+  color: #121212;
+}
+.donate-today p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px 0;
+  line-height: 32px;
+  letter-spacing: 0.05px;
+  color: #707070;
+}
+.amount-item {
+  width: 150px;
+  height: 150px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 30px gray;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+.about-of-money {
+  font-size: 30px;
+  font-weight: 700;
+}
+.donate-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#hover-item {
+  background-color: #ff5959;
+  color: white;
+}
+.donate-input input {
+  text-align: center;
+  padding: 20px;
+  margin-left: 720px;
+  margin-top: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #707070;
+  margin-top: 100px;
+  font-size: 20px;
+}
+.donate-btn button {
+  margin-left: 1150px;
+  margin-top: 50px;
+}
+.donate-plan-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.donate-plan-left {
+  background-color: #4f9da6;
+  margin-right: 40px;
+}
+.donate-plan-mid {
+  background-color: #ff5959;
+  margin-right: 40px;
+}
+.donate-plan-right {
+  background-color: #4f9da6;
+}
+.donate-plan-item {
+  padding: 50px 30px;
+  width: 350px;
+  border-radius: 10px;
+}
+.donate-plan-item h2 {
+  font-size: 25px;
+  margin: 25px 0;
+}
+.donate-plan-item p {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05px;
+}
+.donate-paln-today {
+  margin: 100px 0;
 }
