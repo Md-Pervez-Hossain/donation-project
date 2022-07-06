@@ -220,11 +220,15 @@
   padding: 15px 40px;
   border: none;
   outline: none;
-  margin-right: 20px;
+
   border-radius: 5px;
 }
 .subscribe-info button {
   margin-left: -10px;
+  background-color: #ff5959;
+  color: white;
+}
+.subs-btn {
 }
 .subs-btn {
   background-color: white;
